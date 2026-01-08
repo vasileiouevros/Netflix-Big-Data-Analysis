@@ -13,7 +13,7 @@ The project includes:
 
 ## Dataset
 - **Source**: Kaggle – *Netflix Movies & TV Shows*
-- Dataset: Netflix Movies and TV Shows (Kaggle)
+- **Dataset**: Netflix Movies and TV Shows (Kaggle)
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 - **File**: `netflix_titles.csv`
 - **Size**: 8,800+ titles
