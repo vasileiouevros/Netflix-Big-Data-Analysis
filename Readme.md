@@ -1,7 +1,7 @@
 # Netflix Big Data Analysis (MongoDB & Python)
 
 ## Project Overview
-This project analyzes Netflix catalog metadata (movies and TV shows) using an end-to-end Big Data pipeline. The goal is to demonstrate how **Big Data concepts**—especially **Variety**, **Veracity**, and **Velocity**—appear in a real-world dataset and how tools like **Python** and **MongoDB** can be used to manage, analyze, and visualize this data.
+This project analyzes Netflix catalog metadata (movies and TV shows) using an end-to-end Big Data pipeline. The goal is to demonstrate how **Big Data concepts**, especially **Variety**, **Veracity**, and **Velocity** appear in a real-world dataset and how tools like **Python** and **MongoDB** can be used to manage, analyze, and visualize this data.
 
 The project includes:
 - Data cleaning and transformation with Python (Pandas)
