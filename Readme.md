@@ -118,6 +118,7 @@ The main challenges in this project were related to data quality and structure, 
 
 In addition, the dataset is static and metadata-only, which limited the use of streaming analytics and behavioral modeling. As a result, the project adopted a batch-processing approach using MongoDB aggregation pipelines, which was better aligned with the characteristics of the data.
 
+---
 ## Output
 The project generates visualizations such as:
 - Movies vs TV Shows distribution
