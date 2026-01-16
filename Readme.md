@@ -114,9 +114,7 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 ---
 ## Challenges and Limitations
 
-The main challenges in this project were related to data quality and structure, including missing values, inconsistent formatting (particularly in duration and date fields), and multi-valued attributes such as genres and countries. These issues required explicit cleaning, normalization, and careful schema design to ensure reliable analysis.
-
-In addition, the dataset is static and metadata-only, which limited the use of streaming analytics and behavioral modeling. As a result, the project adopted a batch-processing approach using MongoDB aggregation pipelines, which was better aligned with the characteristics of the data.
+The main challenges in this project were related to the quality and structure of the dataset. The raw Netflix data contains missing values, inconsistent formatting, and mixed representations, particularly in fields such as duration (minutes versus seasons), date_added (free-text dates), and multi-valued attributes like genres and countries. Addressing these issues required careful cleaning, normalization, and explicit handling of missing data to ensure reliable analysis and accurate aggregation results. In addition, the dataset is static and metadata-only, which limited the applicability of streaming analytics and real-time processing. As a result, the project adopted a batch-processing approach using MongoDB aggregation pipelines, which was better aligned with the characteristics and scale of the data and allowed for deeper exploration of indexing, grouping, and analytical query patterns.
 
 ---
 ## Output
